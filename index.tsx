@@ -1,13 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import App from './App.tsx';
 import { install, observe } from '@twind/core';
 import presetTailwind from '@twind/preset-tailwind';
 
 // Setup Twind runtime for CSS-in-JS utility styles.
-// This handles Tailwind classes at runtime without the external Play CDN,
-// eliminating production warnings on GitHub Pages.
-// Capture the tw instance to use with the observe function.
 const tw = install({
   presets: [presetTailwind()],
   theme: {
@@ -34,7 +31,6 @@ const tw = install({
 });
 
 // Observe document to ensure all generated classes are injected into the DOM.
-// Pass the tw instance as the first argument to fix the TypeScript error.
 observe(tw, document.documentElement);
 
 const rootElement = document.getElementById('root');

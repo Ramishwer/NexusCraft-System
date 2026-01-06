@@ -1,16 +1,15 @@
-
 import React, { useState } from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import AIConsultant from './components/AIConsultant';
-import Portfolio from './components/Portfolio';
-import Footer from './components/Footer';
-import ServicesPage from './components/ServicesPage';
-import PortfolioPage from './components/PortfolioPage';
-import ConsultantPage from './components/ConsultantPage';
-import AIFeatures from './components/AIFeatures';
-import { View } from './types';
+import Navbar from './components/Navbar.tsx';
+import Hero from './components/Hero.tsx';
+import Services from './components/Services.tsx';
+import AIConsultant from './components/AIConsultant.tsx';
+import Portfolio from './components/Portfolio.tsx';
+import Footer from './components/Footer.tsx';
+import ServicesPage from './components/ServicesPage.tsx';
+import PortfolioPage from './components/PortfolioPage.tsx';
+import ConsultantPage from './components/ConsultantPage.tsx';
+import AIFeatures from './components/AIFeatures.tsx';
+import { View } from './types.ts';
 
 const SectionHeader: React.FC<{ title: string; subtitle: string; image?: string }> = ({ title, subtitle, image }) => (
   <section className="relative pt-44 pb-28 overflow-hidden bg-slate-950">
