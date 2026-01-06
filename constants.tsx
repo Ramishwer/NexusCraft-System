@@ -3,57 +3,57 @@ import { Service, Project, ProjectCategory, ProcessStep } from './types';
 
 export const SERVICES: Service[] = [
   {
-    id: '1',
-    title: 'Agentic AI Systems',
-    description: 'Developing autonomous AI agents that handle complex decision-making and multi-step business logic.',
-    icon: '🧠',
-    longDescription: 'In the era of Generative AI, we move beyond simple chatbots. Our engineering team builds multi-agent systems that reason, plan, and execute using external tools. These agents can manage everything from automated customer support to complex financial modeling with human-level nuance.',
-    features: ['Custom LLM Orchestration', 'Memory-Augmented RAG', 'Tool-Use & Function Calling', 'Autonomous Workflow Loops'],
-    techStack: ['Gemini 3.0 Pro', 'LangGraph', 'Vector DBs', 'Python', 'FastAPI']
+    id: 'software-dev',
+    title: 'Software Development',
+    description: 'Custom, high-performance software engineered for enterprise scale and intelligence.',
+    icon: '💻',
+    longDescription: 'Our software engineering team specializes in building resilient, distributed systems. We leverage modern microservices architectures and cloud-native patterns to ensure your software is future-proof and highly available. Every line of code is optimized for performance and maintainability, ensuring your core business logic scales effortlessly with your growth.',
+    features: ['Microservices Architecture', 'Distributed Systems', 'API-First Design', 'Performance Optimization'],
+    techStack: ['Node.js', 'Go', 'Python', 'Rust', 'PostgreSQL']
   },
   {
-    id: '2',
-    title: 'Intelligent Cloud Ops',
-    description: 'Scalable, self-healing infrastructure optimized for the demands of modern AI workloads.',
-    icon: '⚡',
-    longDescription: 'Standard DevOps is no longer enough. We implement AI-driven infrastructure that predicts traffic spikes, automatically scales GPU clusters, and self-heals from network anomalies before they impact your users.',
-    features: ['GPU-Optimized Clusters', 'Predictive Auto-scaling', 'SOC2 Compliant Security', 'Zero-Downtime Deployments'],
-    techStack: ['AWS Bedrock', 'Terraform', 'Kubernetes', 'Prometheus', 'Datadog']
+    id: 'web-dev',
+    title: 'Website Development',
+    description: 'Immersive web experiences that merge aesthetics with advanced functionality.',
+    icon: '🌐',
+    longDescription: 'We create dynamic web ecosystems that prioritize user engagement and speed. By utilizing the latest frameworks like Next.js and React, we deliver blazingly fast load times and seamless transitions. Our web solutions are integrated with real-time analytics and SEO best practices, ensuring your digital presence is both beautiful and discoverable.',
+    features: ['Full-Stack SSR', 'Responsive Design', 'SEO Optimization', 'Interactive UI Components'],
+    techStack: ['Next.js', 'React', 'Tailwind CSS', 'TypeScript', 'Vercel']
   },
   {
-    id: '3',
-    title: 'Neural Web Interfaces',
-    description: 'Immersive, data-rich frontend experiences that adapt dynamically to user behavior.',
-    icon: '✨',
-    longDescription: 'We build interfaces that feel like they are thinking. By integrating real-time inference at the edge, our web applications personalize navigation, content, and visuals based on the predicted intent of the user.',
-    features: ['Edge-AI Personalization', 'High-Performance Graphics', 'Real-time Streaming UIs', 'Accessibility-First Design'],
-    techStack: ['Next.js', 'WebGPU', 'Tailwind CSS', 'Vercel AI SDK', 'TypeScript']
+    id: 'mobile-dev',
+    title: 'Mobile App Development',
+    description: 'Native and cross-platform apps that define mobile-first excellence.',
+    icon: '📱',
+    longDescription: 'Our mobile division crafts high-performance applications for iOS and Android. We focus on deeply integrated experiences that leverage device hardware, offline-first capabilities, and intuitive gestures. Whether it is a customer-facing app or an internal enterprise tool, we ensure a polished, high-utility experience across all mobile platforms.',
+    features: ['Cross-Platform Efficiency', 'Native Performance', 'Offline Capabilities', 'Push Notification Engines'],
+    techStack: ['Flutter', 'React Native', 'Swift', 'Kotlin', 'Firebase']
   },
   {
-    id: '4',
-    title: 'Enterprise LLM Integration',
-    description: 'Deploying private, secure, and fine-tuned language models on your proprietary datasets.',
-    icon: '🔐',
-    longDescription: 'Data privacy is paramount. We help enterprises deploy open-source and proprietary models within their own virtual private clouds (VPC), ensuring that sensitive business intelligence never leaves their secure perimeter.',
-    features: ['VPC-Isolated Deployments', 'Custom Model Fine-tuning', 'Prompt Engineering Ops', 'Data Governance Frameworks'],
-    techStack: ['Ollama', 'Llama 3.1', 'Azure AI', 'Docker', 'PostgreSQL']
+    id: 'blockchain-dev',
+    title: 'Blockchain Development',
+    description: 'Decentralized infrastructure and smart contracts built for the trust economy.',
+    icon: '⛓️',
+    longDescription: 'We design and deploy secure, scalable blockchain protocols tailored to enterprise needs. Our expertise spans smart contract auditing, decentralized finance (DeFi) architectures, and private ledger implementations. We help businesses harness the power of decentralization to improve transparency, security, and transaction efficiency in their supply chains or financial operations.',
+    features: ['Smart Contract Auditing', 'Tokenization Platforms', 'Web3 Integration', 'Decentralized Identity'],
+    techStack: ['Solidity', 'Rust', 'Ethereum', 'Solana', 'Hardhat']
   }
 ];
 
 export const AI_METHODOLOGY = [
   {
     title: "AI-Assisted Craftsmanship",
-    desc: "Every line of code is cross-referenced by our proprietary security model to ensure zero vulnerabilities from day one.",
+    desc: "We utilize proprietary machine learning models to analyze code quality and predict potential vulnerabilities before deployment.",
     icon: "🛡️"
   },
   {
     title: "Predictive Lifecycle",
-    desc: "We use machine learning to predict potential bottlenecks in software delivery, allowing for 40% faster shipping cycles.",
+    desc: "Our project management systems use AI to estimate development timelines with 98% accuracy, ensuring on-time delivery.",
     icon: "🧪"
   },
   {
     title: "Synthetic Data Testing",
-    desc: "Our QA process utilizes high-fidelity synthetic data to simulate millions of edge cases that traditional testing misses.",
+    desc: "We simulate millions of user interactions using high-fidelity synthetic data to ensure stability under any load condition.",
     icon: "📊"
   }
 ];
@@ -61,22 +61,22 @@ export const AI_METHODOLOGY = [
 export const PROCESS_STEPS: ProcessStep[] = [
   {
     title: 'Neural Discovery',
-    description: 'We analyze your data landscape to find the highest-leverage AI opportunities for your specific business model.',
+    description: 'A deep-dive analysis of your current technical landscape to identify high-impact automation and AI opportunities.',
     icon: '🧬'
   },
   {
     title: 'Cognitive Design',
-    description: 'Architecting the flow of intelligence, mapping how models interact with your core business logic.',
+    description: 'Architecting a solution that integrates intelligence seamlessly into your workflows while maintaining security.',
     icon: '🏗️'
   },
   {
     title: 'Rapid Deployment',
-    description: 'Utilizing AI accelerators to spin up secure, scalable production environments in record time.',
+    description: 'Utilizing automated CI/CD pipelines to launch your solution into a scalable, cloud-native production environment.',
     icon: '⚡'
   },
   {
     title: 'Feedback Loop',
-    description: 'Continuous monitoring and iterative fine-tuning to ensure your AI systems improve with every interaction.',
+    description: 'Continuous monitoring and iterative improvements based on real-world usage patterns and data performance.',
     icon: '📈'
   }
 ];
@@ -87,20 +87,20 @@ export const PROJECTS: Project[] = [
     title: 'AetherMind Fintech',
     category: ProjectCategory.AI,
     image: 'https://images.unsplash.com/photo-1611974714024-4637d2305c91?auto=format&fit=crop&q=80&w=1200',
-    description: 'A revolutionary AI assistant for wealth management that processes global market sentiment in real-time.'
+    description: 'A revolutionary wealth management engine that utilizes real-time market sentiment analysis to protect assets.'
   },
   {
     id: 'p2',
     title: 'NexusFlow Health',
     category: ProjectCategory.CLOUD,
     image: 'https://images.unsplash.com/photo-1576091160550-217359f4ecf8?auto=format&fit=crop&q=80&w=1200',
-    description: 'HIPAA-compliant cloud architecture for large-scale genetic sequencing and analysis.'
+    description: 'Scalable, HIPAA-compliant infrastructure designed for global healthcare data exchange and genetic sequencing.'
   },
   {
     id: 'p3',
     title: 'BioScribe Logistics',
     category: ProjectCategory.WEB,
     image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=1200',
-    description: 'Global supply chain dashboard with predictive rerouting powered by agentic AI clusters.'
+    description: 'Global logistics dashboard with autonomous route optimization and predictive maintenance alerts.'
   }
 ];
