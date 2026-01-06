@@ -1,4 +1,3 @@
-
 import { Service, Project, ProjectCategory, ProcessStep } from './types';
 
 export const SERVICES: Service[] = [
@@ -7,7 +6,7 @@ export const SERVICES: Service[] = [
     title: 'Software Development',
     description: 'Bespoke enterprise software engineered for extreme reliability and scalability.',
     icon: '💻',
-    longDescription: 'We specialize in building distributed systems that power global operations. Our team utilizes a "Clean Architecture" approach, ensuring that your core business logic is isolated from external frameworks, making your codebase resilient to technological shifts. We prioritize asynchronous processing and microservices to ensure that your platform can handle millions of concurrent users without degradation in performance.',
+    longDescription: 'We build the backbone of modern business. Our approach combines rigorous engineering principles with agile execution, ensuring your software is not only powerful but also maintainable and ready for the future. From microservices to distributed ledgers, we design for zero-downtime and high-concurrency environments.',
     features: ['High-Availability Architecture', 'Event-Driven Systems', 'Legacy Modernization', 'API Ecosystem Design'],
     techStack: ['Node.js', 'Go', 'Kubernetes', 'PostgreSQL', 'Redis']
   },
@@ -16,7 +15,7 @@ export const SERVICES: Service[] = [
     title: 'Website Development',
     description: 'High-conversion, AI-enhanced web platforms with millisecond-perfect performance.',
     icon: '🌐',
-    longDescription: 'In a digital-first economy, your website is your most critical infrastructure. We build advanced web applications using Next.js and React, focusing on Core Web Vitals to ensure top-tier SEO rankings and user retention. By integrating AI at the edge, we deliver hyper-personalized experiences that dynamically adjust to user intent, driving higher engagement and conversion rates across all device types.',
+    longDescription: 'Your digital storefront should be as intelligent as your product. We create immersive web experiences that prioritize user speed and search engine dominance. Using the latest in edge-computing and server-side rendering, we ensure your message reaches your audience instantly, regardless of their location.',
     features: ['Server-Side Rendering', 'Edge Computing', 'Headless CMS Integration', 'Real-time Analytics'],
     techStack: ['Next.js', 'React', 'Tailwind CSS', 'Vercel', 'Sanity.io']
   },
@@ -25,18 +24,36 @@ export const SERVICES: Service[] = [
     title: 'Mobile App Development',
     description: 'Immersive iOS and Android experiences designed for a mobile-centric world.',
     icon: '📱',
-    longDescription: 'Our mobile engineering team delivers native-performance applications that feel seamless on every screen. We focus on a "Universal Codebase" strategy using Flutter, which reduces development time by 40% while maintaining the fidelity of native UI components. From biometrics to background synchronization, we implement complex mobile features that ensure your brand is always within your customers\' reach.',
+    longDescription: 'Connect with your users wherever they are. Our mobile division specializes in high-fidelity applications that leverage the full power of modern hardware. We focus on seamless synchronization, intuitive biometrics, and offline-first capabilities to ensure a premium user experience in the palm of their hand.',
     features: ['Multi-Platform Sync', 'Biometric Security', 'Offline-First Capability', 'Push Intelligence'],
     techStack: ['Flutter', 'Swift', 'Kotlin', 'Firebase', 'SQLite']
   },
   {
     id: 'blockchain-dev',
-    title: 'Blockchain Development',
+    title: 'Blockchain Solutions',
     description: 'Immutable digital infrastructure and smart contracts for the decentralized economy.',
     icon: '⛓️',
-    longDescription: 'We help enterprises navigate the transition to Web3 by building secure, audit-ready blockchain protocols. Whether it is a private ledger for supply chain transparency or a decentralized finance (DeFi) protocol, we ensure that every smart contract is rigorously tested against common attack vectors. We build foundations for digital trust that improve transparency and operational efficiency across organizational boundaries.',
+    longDescription: 'Navigate the transition to Web3 with confidence. We help enterprises integrate blockchain protocols to improve transparency, security, and transactional efficiency. Our audited smart contracts and private ledger implementations provide the immutable foundation required for the trust-based digital economy of tomorrow.',
     features: ['Smart Contract Audits', 'Asset Tokenization', 'DAO Infrastructure', 'Decentralized ID'],
     techStack: ['Solidity', 'Rust', 'Ethereum', 'Solana', 'Hardhat']
+  },
+  {
+    id: 'uiux-design',
+    title: 'UI/UX Design',
+    description: 'Human-centric design systems that bridge the gap between complexity and clarity.',
+    icon: '🎨',
+    longDescription: 'Design is not just how it looks; it is how it works. We create comprehensive design systems that ensure your brand identity is consistently and intuitively represented across every digital touchpoint. Our process is driven by behavioral data and usability research, removing friction and delighting users at every interaction.',
+    features: ['Strategic UX Research', 'Design Systems', 'Interactive Prototyping', 'Accessibility Compliance'],
+    techStack: ['Figma', 'Adobe CC', 'Storybook', 'Framer Motion']
+  },
+  {
+    id: 'digital-marketing',
+    title: 'Digital Marketing',
+    description: 'AI-powered growth strategies that scale your digital footprint with precision.',
+    icon: '📈',
+    longDescription: 'Growth is a science. We use predictive analytics and machine learning to identify your most valuable customers and reach them with surgical precision. Our marketing engineering team optimizes your technical SEO and acquisition funnels in real-time, ensuring maximum return on your digital investment.',
+    features: ['Predictive Analytics', 'Performance SEO', 'Campaign Automation', 'Sentiment Analysis'],
+    techStack: ['Google Analytics', 'HubSpot', 'Segment', 'OpenAI API']
   }
 ];
 

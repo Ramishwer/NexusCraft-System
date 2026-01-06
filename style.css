@@ -1,0 +1,27 @@
+/* 
+   NexusCraft Systems Production Styles 
+   Note: Dynamic utility classes are injected by Twind.
+   This file contains core reset and global animations.
+*/
+
+:root {
+  --blue-600: #2563eb;
+  --slate-950: #020617;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
